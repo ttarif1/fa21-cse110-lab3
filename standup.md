@@ -6,10 +6,10 @@
 ## Meeting Length:
 * (length)
 
-### Summary from last meeting:
+## Summary from last meeting:
 * (Summary)
 
-### Today's Tasks:
+## Today's Tasks:
 * (Tasks)
 
 ### Issues:
