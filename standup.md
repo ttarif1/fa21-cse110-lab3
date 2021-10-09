@@ -12,8 +12,8 @@
 ## Today's Tasks:
 * (Tasks)
 
-### Issues:
-* (What's preventing progress)
+    ### Issues:
+    * (What's preventing progress)
 
-### Misc:
-* (notes for misc.)
+    ### Misc:
+    * (notes for misc.)
