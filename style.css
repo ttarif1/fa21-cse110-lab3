@@ -1,6 +1,10 @@
 /* This is my style CSS file */
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 
+.class {
+    position: static;
+}
+
 #headsection {
     text-align: left;
     font-size: 150%;
@@ -40,11 +44,6 @@ body {
     padding-right: 1ch;
     font-family: 'Festive', cursive;
     color: rgb(25, 196, 93);
-
-    display: grid;
-    justify-self: center;
-    column-gap: 10px;
-    row-gap: 10px
     border-style: outset;
     border-color: white;
     border-radius: 10px;
@@ -54,8 +53,45 @@ body {
     text-align: center;
     font-size: 150%;
 
+    display: grid;
+    justify-self: center;
+    column-gap: 10px;
+    row-gap: 10px
+
 }
 button:hover {
     color: red
 }
 
+@media (max-width: 800px)
+    {
+    }
+*{ 
+    max-width: 1000px; 
+}
+
+li li {
+    list-style-type: circle;
+}
+
+a[footer] {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h1,h2 {font-family: helvetica;}
+
+ul.Audio > li {
+    margin: 2em;
+}
+
+video ~ p {
+    color:rgba(0, 21, 255, 0.735)
+}
+
+video + audio {
+    font-weight: bold;
+}
