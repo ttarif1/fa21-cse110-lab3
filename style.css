@@ -1,16 +1,61 @@
 /* This is my style CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 
+#headsection {
+    text-align: left;
+    font-size: 150%;
+}
+details {
+    display: inline;
+    text-align: left;
+    font-size: 150%;
+}
+#Agenda {
+    text-align: left;
+    font-size: 150%;
+    display: inline;
+}
+#Survey {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: center;
+}
+#Video {
+    position: static;
+}
+#Audio {
+    position: static;
+}
 body {
-    background-color: rgb(0, 21, 255);
-    margin-top: 3em;
-    margin-bottom: 3em;
-    margin-left: 20%;
-    margin-right: 20%;
+    background-color: rgba(0, 21, 255, 0.735);
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 15%;
+    margin-right: 15%;
 
     padding-top: 1ch;
+    padding-bottom: 1ch;
     padding-left: 1ch;
     padding-right: 1ch;
-    padding-bottom: 1ch;
-    font-family: 'Montserrat', sans-serif; 
-    color: hsl(0,0%,70%);
+    font-family: 'Festive', cursive;
+    color: rgb(25, 196, 93);
+
+    display: grid;
+    justify-self: center;
+    column-gap: 10px;
+    row-gap: 10px
+    border-style: outset;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 0.25cm 0.25cm 0.25cm 0.25cm;
+    padding: 3mm 3mm 3mm 3mm;
+    text-align: center;
+    font-size: 150%;
+
 }
+button:hover {
+    color: red
+}
+
